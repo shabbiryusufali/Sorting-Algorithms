@@ -4,6 +4,7 @@ Date: April 19, 2021
 Description: A main file to test my quicksort implementations
 */
 #include "sort.hpp"
+#include "quicksort.hpp"
 
 int main(){
     int intArraySize;
@@ -20,14 +21,14 @@ int main(){
     for(int i = 0; i < intArraySize; i++){
         intArrayToQuicksort[i] = intArray[i];
     }
-    
+/*
     int charArraySize;
     cout << "Please enter how many strings you would like to input." << endl;
     cin >> charArraySize;
     char** stringArray = new char*[charArraySize];
 
     cout << "Please fill the array with strings below" << endl;    
-    for(int i = 0; i < intArraySize; i++){
+    for(int i = 0; i < charArraySize; i++){
         cin >> stringArray[i];
     }
 
@@ -44,8 +45,18 @@ int main(){
         }
         cout << endl;
     }
+    cout << "]" << endl;*/
+
+    quicksort_int_array(intArrayToQuicksort, intArraySize);
+    cout << "Quicksorted String Array: [";
+    for(int i = 0; i < intArraySize; i++){
+        cout << intArrayToQuicksort[i];
+        if(i != intArraySize-1){
+            cout << ",";
+        }
+        cout << " ";
+    }
     cout << "]" << endl;
-    
 
     return 0;
 }
