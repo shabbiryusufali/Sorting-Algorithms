@@ -4,7 +4,6 @@ Date: April 19, 2021
 Description: A main file to test my quicksort implementations
 */
 #include "sort.hpp"
-#include "quicksort.hpp"
 
 int main(){
     int intArraySize;
