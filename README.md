@@ -5,3 +5,5 @@ Various Sorting Algorithms
 - The sort.hpp contains the "#include" for the other header files
 
 - The sorting algorithms are put into their own cpp file and a corresponding header file is created and added to sot.hpp
+
+- If you do make a change to a file, or add a file, please put your name in the "Author" section after any existing name
