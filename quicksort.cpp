@@ -7,7 +7,7 @@ and on an integer array
 */
 #include "quicksort.hpp"
 
-
+// This function partitions the elements of the int array
 void partition_int_array(int inputArray[], int begin, int end, int number){
     for(int i = begin; i <= end; i++){
         inputArray[i] = inputArray[i+1];
@@ -15,6 +15,7 @@ void partition_int_array(int inputArray[], int begin, int end, int number){
     inputArray[end] = number;
 }
 
+// This function recursively sorts the inputted array
 void sort_int_array(int inputArray[], int begin, int end){
     int pivot = end;
     int i;
@@ -31,6 +32,7 @@ void sort_int_array(int inputArray[], int begin, int end){
         }
 }
 
+// This function sets up the quicksort function above
 void quicksort_int_array(int inputArray[], int size){
     int begin = 0;
     int end = size-1;
@@ -38,6 +40,7 @@ void quicksort_int_array(int inputArray[], int size){
 
 }
 
+// This function partitions the elements of the string array
 void partition_string_array(char* inputArray[], int begin, int end, char* word){
     for(int i = begin; i <= end; i++){
         inputArray[i] = inputArray[i+1];
@@ -45,6 +48,7 @@ void partition_string_array(char* inputArray[], int begin, int end, char* word){
     inputArray[end] = word;
 }
 
+// This function recursively sorts the inputted array
 void sort_string_array(char* inputArray[], int begin, int end){
     int pivot = end;
     int i;
@@ -63,7 +67,7 @@ void sort_string_array(char* inputArray[], int begin, int end){
 
 }
 
-
+// This function sets up the quicksort function above
 void quicksort_string_array(char* inputArray[], int size){
     int begin = 0;
     int end = size-1;
