@@ -20,6 +20,11 @@ int main(){
     for(int i = 0; i < intArraySize; i++){
         intArrayToQuicksort[i] = intArray[i];
     }
+    
+    int* intArrayToSelectionsort = new int[intArraySize];
+    for(int i = 0; i < intArraySize; i++){
+        intArrayToSelectionsort[i] = intArray[i];
+    }
 /*
     int charArraySize;
     cout << "Please enter how many strings you would like to input." << endl;
@@ -47,7 +52,17 @@ int main(){
     cout << "]" << endl;*/
 
     quicksort_int_array(intArrayToQuicksort, intArraySize);
-    cout << "Quicksorted String Array: [";
+    cout << "Quicksorted Int Array: [";
+    for(int i = 0; i < intArraySize; i++){
+        cout << intArrayToQuicksort[i];
+        if(i != intArraySize-1){
+            cout << ",";
+        }
+        cout << " ";
+    }
+    cout << "]" << endl;
+    selectionsort_int_array(intArrayToQuicksort, intArraySize);
+    cout << "Selection Sorted Int Array: [";
     for(int i = 0; i < intArraySize; i++){
         cout << intArrayToQuicksort[i];
         if(i != intArraySize-1){
