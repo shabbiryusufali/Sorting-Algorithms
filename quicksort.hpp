@@ -1,7 +1,7 @@
 /*
 Author: Shabbir Yusufali
 Date: April 19, 2021
-Description: A file containing the implentations of quicksort on a string array
+Description: A file containing the declarations of quicksort on a string array
 and on an integer array
 
 */
