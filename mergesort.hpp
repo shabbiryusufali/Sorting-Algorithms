@@ -1,5 +1,8 @@
 /*
 Author: Shabbir Yusufali
+Date: April 19, 2021
+Description: This document has the implementations for mergesort on an int 
+array and a string array
 */
 #include <iostream>
 #include <stdlib.h>
