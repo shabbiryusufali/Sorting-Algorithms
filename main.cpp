@@ -6,6 +6,7 @@ Description: A main file to test my sort implementations
 #include "headers/sort.hpp"
 
 int main(){
+
     int intArraySize;
     cout << "Please enter how many integers you would like to input." << endl;
     cin >> intArraySize;
@@ -59,6 +60,7 @@ int main(){
     for(int i = 0; i < charArraySize; i++){
         stringArrayToMergesort[i] = stringArray[i];
     }
+
     quicksort_string_array(stringArrayToQuicksort, charArraySize);
     cout << "Quicksorted String Array:    [" << endl;
     for(int i = 0; i < charArraySize; i++){
@@ -66,8 +68,8 @@ int main(){
         if(i != charArraySize-1){
             cout << ", ";
         }
-        //cout << endl;
     }
+
     cout << "]" << endl;
     selectionsort_string_array(stringArrayToSelectionsort, charArraySize);
     cout << "Selection Sorted String Array: [" << endl;
@@ -76,8 +78,8 @@ int main(){
         if(i != charArraySize-1){
             cout << ", ";
         }
-        //cout << endl;
     }
+
     cout << "]" << endl;
     mergesort_string_array(stringArrayToMergesort, charArraySize);
     cout << "Mergesorted String Array:    [" << endl;
@@ -86,7 +88,6 @@ int main(){
         if(i != charArraySize-1){
             cout << ", ";
         }
-        //cout << endl;
     }
     cout << "]" << endl;*/
 
@@ -97,7 +98,6 @@ int main(){
         if(i != intArraySize-1){
             cout << ", ";
         }
-        //cout << " ";
     }
     cout << "]" << endl;
     selectionsort_int_array(intArrayToSelectionsort, intArraySize);
@@ -107,7 +107,6 @@ int main(){
         if(i != intArraySize-1){
             cout << ", ";
         }
-        //cout << " ";
     }
     cout << "]" << endl;
     mergesort_int_array(intArrayToMergesort, intArraySize);
@@ -117,7 +116,6 @@ int main(){
         if(i != intArraySize-1){
             cout << ", ";
         }
-        //cout << " ";
     }
     cout << "]" << endl;
 
