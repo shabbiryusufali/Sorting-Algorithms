@@ -1,7 +1,7 @@
 /*
 Author: Shabbir Yusufali
 Date: April 19, 2021
-Description: A main file to test my quicksort implementations
+Description: A main file to test my sort implementations
 */
 #include "sort.hpp"
 
