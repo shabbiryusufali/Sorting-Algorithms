@@ -3,7 +3,7 @@ Author: Shabbir Yusufali
 Date: April 19, 2021
 Description: A main file to test my sort implementations
 */
-#include "sort.hpp"
+#include "headers/sort.hpp"
 
 int main(){
     int intArraySize;
@@ -30,7 +30,7 @@ int main(){
     for(int i = 0; i < intArraySize; i++){
         intArrayToMergesort[i] = intArray[i];
     }
-
+/*
     int charArraySize;
     cout << "Please enter how many strings you would like to input." << endl;
     cin >> charArraySize;
@@ -88,7 +88,7 @@ int main(){
         }
         cout << endl;
     }
-    cout << "]" << endl;
+    cout << "]" << endl;*/
 
     quicksort_int_array(intArrayToQuicksort, intArraySize);
     cout << "Quicksorted Int Array:      [";
