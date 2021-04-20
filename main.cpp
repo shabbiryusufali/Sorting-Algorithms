@@ -79,7 +79,7 @@ int main(){
         cout << endl;
     }
     cout << "]" << endl;
-    quicksort_string_array(stringArrayToMergesort, charArraySize);
+    mergesort_string_array(stringArrayToMergesort, charArraySize);
     cout << "Mergesorted String Array:    [" << endl;
     for(int i = 0; i < charArraySize; i++){
         cout << stringArrayToMergesort[i];
