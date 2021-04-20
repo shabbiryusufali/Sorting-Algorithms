@@ -64,9 +64,9 @@ int main(){
     for(int i = 0; i < charArraySize; i++){
         cout << stringArrayToQuicksort[i];
         if(i != charArraySize-1){
-            cout << ",";
+            cout << ", ";
         }
-        cout << endl;
+        //cout << endl;
     }
     cout << "]" << endl;
     selectionsort_string_array(stringArrayToSelectionsort, charArraySize);
@@ -74,9 +74,9 @@ int main(){
     for(int i = 0; i < charArraySize; i++){
         cout << stringArrayToSelectionsort[i];
         if(i != charArraySize-1){
-            cout << ",";
+            cout << ", ";
         }
-        cout << endl;
+        //cout << endl;
     }
     cout << "]" << endl;
     mergesort_string_array(stringArrayToMergesort, charArraySize);
@@ -84,9 +84,9 @@ int main(){
     for(int i = 0; i < charArraySize; i++){
         cout << stringArrayToMergesort[i];
         if(i != charArraySize-1){
-            cout << ",";
+            cout << ", ";
         }
-        cout << endl;
+        //cout << endl;
     }
     cout << "]" << endl;*/
 
@@ -95,9 +95,9 @@ int main(){
     for(int i = 0; i < intArraySize; i++){
         cout << intArrayToQuicksort[i];
         if(i != intArraySize-1){
-            cout << ",";
+            cout << ", ";
         }
-        cout << " ";
+        //cout << " ";
     }
     cout << "]" << endl;
     selectionsort_int_array(intArrayToSelectionsort, intArraySize);
@@ -105,9 +105,9 @@ int main(){
     for(int i = 0; i < intArraySize; i++){
         cout << intArrayToSelectionsort[i];
         if(i != intArraySize-1){
-            cout << ",";
+            cout << ", ";
         }
-        cout << " ";
+        //cout << " ";
     }
     cout << "]" << endl;
     mergesort_int_array(intArrayToMergesort, intArraySize);
@@ -115,9 +115,9 @@ int main(){
     for(int i = 0; i < intArraySize; i++){
         cout << intArrayToMergesort[i];
         if(i != intArraySize-1){
-            cout << ",";
+            cout << ", ";
         }
-        cout << " ";
+        //cout << " ";
     }
     cout << "]" << endl;
 
