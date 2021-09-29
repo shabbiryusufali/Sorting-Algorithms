@@ -7,7 +7,6 @@ Description: A main file to test my sort implementations
 
 int main(){
 
-    cout << "Test" << endl;
     int intArraySize;
     cout << "Please enter how many integers you would like to input." << endl;
     cin >> intArraySize;
